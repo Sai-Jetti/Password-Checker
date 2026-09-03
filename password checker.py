@@ -45,7 +45,6 @@ if have_digit == False:
 if have_special == False:
     print('Your password does not contain any special characters. Please consider adding a special character to improve its strength.')
 
-print('test')
 combination = 0
 if have_upper == True:
     combination += 26
