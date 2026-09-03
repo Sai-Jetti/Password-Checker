@@ -36,6 +36,15 @@ elif count == 4:
 else:
     print('Your password is weak. Please consider making it stronger.')
 
+if have_upper == False:
+    print('Your password does not contain any uppercase letters. Please consider adding an uppercase letter to improve its strength.')
+if have_lower == False:
+    print('Your password does not contain any lowercase letters. Please consider adding a lowercase letter to improve its strength.')
+if have_digit == False:
+    print('Your password does not contain any numbers. Please consider adding a number to improve its strength.')
+if have_special == False:
+    print('Your password does not contain any special characters. Please consider adding a special character to improve its strength.')
+
 
 combination = 0
 if have_upper == True:
